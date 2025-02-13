@@ -81,12 +81,14 @@ const GlatkiAll = () => {
                 {item.title}
               </h2>
               <p className="text-lg text-gray-700 mb-4">{item.price}</p>
-              <Button
-                className="w-full bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors duration-300"
-                onClick={() => handleBuy(item.title, item.price)}
+              <a href="https://t.me/Rustamof_00">
+              <button
+                className="w-full px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-300"
+                onClick={() => handleBuy()}
               >
                 Sotib olish
-              </Button>
+              </button>
+            </a>
             </div>
           </div>
         ))}
